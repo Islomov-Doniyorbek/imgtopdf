@@ -11,14 +11,14 @@ body {
     background: linear-gradient(135deg, teal, aqua);
 }
 .container {
-    width: 350px;
-    padding: 15px;
+    width: 340px;
+    padding: 10px;
     border-radius: 8px;
     background: cornsilk;
 }
 #show {
     display: block;
-    max-width: 350px;
+    max-width: 340px;
     min-height: 200px;
     margin: 0 auto;
     background: #000016;
