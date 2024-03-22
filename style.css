@@ -7,7 +7,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     background: linear-gradient(135deg, teal, aqua);
 }
 .container {
@@ -58,48 +57,4 @@ input {
 }
 .upload {
     background: rgb(172, 56, 14);
-}
-.parda {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-.parda .top {
-    width: 100%;
-    height: 50%;
-    background: teal;
-    animation: top 5s linear forwards;
-    
-}
-.parda .bottom {
-    width: 100%;
-    height: 50%;
-    background:aqua;
-    animation: bottom 5s linear forwards;
-}
-@keyframes top {
-    45% {
-        transform: translateY(0%);
-        box-shadow: inset 0 -10px 5px 2px azure,
-                    0 1px 8px 1px azure;
-    }
-    90% {
-        box-shadow: none;
-    }
-    100% {
-        transform: translateY(-100%);
-    }
-}
-@keyframes bottom {
-    45% {
-        transform: translateY(0%);
-        box-shadow: inset 0 10px 5px 2px azure,
-                    0 1px 8px 1px azure;
-    }
-    90% {
-        box-shadow: none;
-    }
-    100% {
-        transform: translateY(100%);
-    }
 }
